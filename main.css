@@ -25,15 +25,8 @@ button {
 }
 
 .main {
-  margin: 0 auto;
-  max-width: 400px;
   text-align: center;
   clear: both;
-}
-
-.search-bar {
-  width: 300px;
-  height: 80px;
 }
 
 .search-button-group {
@@ -78,7 +71,7 @@ header button {
 }
 
 .main img {
-  margin-top: 35%;
+  margin-top: 145px;
 }
 
 .search-button-group button {
@@ -96,7 +89,7 @@ header button {
 
 #search-bar {
   height: 40px;
-  width: 410px;
+  width: 500px;
   border: 1px solid #eee;
   margin-top: 5%;
 }
