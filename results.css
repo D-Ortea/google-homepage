@@ -7,9 +7,15 @@ header {
   background-color: #f9f9f9;
   padding-right: 15px;
   padding-top: 17px;  
+  border-bottom: 0.01em solid #eee;
+  min-width: 1100px;
 }
 
-#google-logo, .search-bar-group {
+.upper-header-menu {
+  position: relative;
+}
+
+#google-logo, .search-bar-group, .sign-in-group {
   display: inline-block;
 }
 
@@ -17,18 +23,41 @@ header {
   padding: 7px 10px 0 13px;
 }
 
+#search-bar {
+  width: 525px;
+}
+
 .tabs {
   list-style: none;
+  margin: 20px 0 6px 152px;
+  padding-left: 0;
 }
 
 .tabs div {  
-  display: inline-block;
+  display: inline-block;  
 }
 
 .tabs li {
   display: inline;
+  padding: 11px 8px 8px 8px;
 }
 
 .settings {
   margin-left: 100px;
+}
+
+.sign-in-group {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+#selected-tab {
+  font-weight: bold;
+  border-bottom: 3px solid #1A73E8;
+  color: #1A73E8;
+}
+
+#selected-tab a {
+  color: inherit;
 }
