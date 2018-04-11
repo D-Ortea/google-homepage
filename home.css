@@ -20,3 +20,13 @@ header {
   padding-left: 5px;
   padding-bottom: 2px;
 }
+
+#go-to-results {
+  color: inherit;
+  cursor: default;
+}
+
+.search-button-group button:hover {
+  color: #222;
+  border: 1px solid #c6c6c6;
+}

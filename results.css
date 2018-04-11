@@ -206,3 +206,7 @@ ol {
 .paging-last a {
   padding-left: 55px;
 }
+
+.upper-header-menu a {
+  text-decoration: none;
+}

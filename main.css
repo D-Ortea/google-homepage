@@ -39,7 +39,7 @@ button {
   margin: 25px 0;
 }
 
-header a, footer a, .country {
+ .search-bar-group a, .tabs a, footer a, .country {
   text-decoration: none;
   color: #666;
   display: inline-block;
