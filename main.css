@@ -1,15 +1,26 @@
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: small;
+  min-height: 100%;
+  position: relative;
+}
+
+section {
+  padding: 0 0 84px 0;
 }
 
 footer {
-  display: block;
+  background-color: #f2f2f2;
   position: absolute;
   bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #f2f2f2;
+  width: 100%;
+
 }
 
 button {  
