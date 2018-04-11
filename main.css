@@ -39,14 +39,18 @@ button {
   margin: 25px 0;
 }
 
- .search-bar-group a, .tabs a, footer a, .country {
+ .search-bar-group a, .tabs a, footer a, .country-name {
   text-decoration: none;
   color: #666;
   display: inline-block;
 }
 
-footer a, .country{
+footer a, .country-name {
   padding: 13px;
+}
+
+.country {
+  padding: 3px;
 }
 
 header a {  

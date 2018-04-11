@@ -210,3 +210,19 @@ ol {
 .upper-header-menu a {
   text-decoration: none;
 }
+
+.country, .footer-links {
+  padding-left: 163px;
+}
+
+.country-name {
+  border-right: 1px solid #ccc;
+}
+
+.location-data a {
+  padding: 0;
+}
+
+.location-data {
+  color: #666;
+}
