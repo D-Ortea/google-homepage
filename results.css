@@ -12,6 +12,25 @@ section {
   position: relative;
 }
 
+.related-search {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.link-table a {
+  color: #1a0dab;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  padding: 3px 32px 3px 0;
+}
+
+.link-table a:hover {
+  text-decoration: underline;
+  color: #609;
+}
+
 .upper-header-menu {
   position: relative;
 }
@@ -135,4 +154,55 @@ ol {
 .website-cite {
   font-style: normal;
   font-size: 14px;
+}
+
+.paging {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.paging td {
+  padding: 0; 
+  text-align: center;
+}
+
+.paging-first div, .paging-link-first div, .paging-link div, .paging-last div {
+  background: url("images/nav_logo242.webp") no-repeat;
+  height: 40px;
+}
+
+.paging-link-first div, .paging-link div {
+  width: 20px;
+}
+
+.paging-first div {  
+  background-position: -24px 0;
+  width: 30px;
+  padding-bottom: 10px;
+}
+
+.paging-link-first div {  
+  background-position: -53px 0;
+}
+
+.paging-link div {  
+  background-position: -74px 0;
+}
+
+.paging-link a,  .paging-last a {
+  text-decoration: none;
+  color: #4285f4;
+}
+
+.paging-link a:hover,  .paging-last a:hover {
+  text-decoration: underline;
+}
+
+.paging-last div {
+  background-position: -96px 0;
+  width: 71px;
+}
+
+.paging-last a {
+  padding-left: 55px;
 }
