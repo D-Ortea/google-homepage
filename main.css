@@ -74,10 +74,6 @@ header button {
   text-decoration: none;
 }
 
-.main img {
-  margin-top: 145px;
-}
-
 .search-button-group button {
   color: #757575;
   background-color: #f2f2f2;
@@ -88,8 +84,9 @@ header button {
 }
 
 .search-bar-group {
-  width: 632px;
+  margin:0 auto;
   box-sizing: border-box;
+  text-align: left;
   background: #fff;
   border: 0.01em outset #eee;
   border-radius: 2px;

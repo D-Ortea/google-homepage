@@ -4,6 +4,19 @@ header {
 }
 
 #search-bar {
+  width: 440px;
+}
+
+.google-logo {
+  margin-top: 145px;
+}
+
+.search-bar-group {
   width: 500px;
-  margin-top: 5%;
+}
+
+.search-logos img{
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-bottom: 2px;
 }

@@ -16,6 +16,10 @@ section {
   position: relative;
 }
 
+.search-bar-group {
+  width: 632px;
+}
+
 #google-logo, .search-bar-group, .sign-in-group {
   display: inline-block;
 }
